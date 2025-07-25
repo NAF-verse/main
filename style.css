@@ -264,12 +264,12 @@ hr{
     nav{
         flex-direction: column;
         justify-content: center;
-        height: 50vh;
+        height: 60vh;
         width: calc(100%-8px);
         align-items: center;
         background-color:lightslategray;
-        /* padding-top:10px;
-        padding-bottom: 0px; */
+        padding-top:10px;
+        padding-bottom: 10px;
     }
     .title{
         font-size: 20px;

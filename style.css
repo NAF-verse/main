@@ -273,12 +273,12 @@ hr{
     }
     .title{
         font-size: 20px;
-        padding-left: 2px;
+        
 
     }
     .nav-item ul{
         flex-direction: column;
-        gap:20px;
+        gap:10px;
     }
     .nav-item ul li{
         font-size: 20px;

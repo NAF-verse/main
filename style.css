@@ -255,3 +255,86 @@ hr{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 20px 100px;
 }
+@media screen and (max-width:580px) {
+    
+    
+    header{
+        margin-bottom: 3vh;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        height: 40vh;
+        width: calc(100%-8px);
+        align-items: center;
+        background-color:lightslategray;
+        padding:20px 0;
+    }
+    .title{
+        font-size: 20px;
+        padding-left: 2px;
+
+    }
+    .nav-item ul{
+        flex-direction: column;
+        gap:20px;
+    }
+    .nav-item ul li{
+        font-size: 20px;
+    }
+    .bg img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .explor{
+        display: none;
+    }
+    .feature img{
+        width: 100%;
+        height: 100%;
+        margin: 30px 0;
+    }
+    .f-item{
+        flex-direction: column;
+        margin: 30px 20px;
+    }
+    .f-blog img{
+        width: 100%;
+        height: 100%;
+    }
+    .f-gallary img{
+        width: 100%;
+        height: 100%;
+    }
+    .about{
+        flex-direction: column;
+        margin:50px 20px;
+    }
+    .about-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .about-image{
+        padding: 0px;
+    }
+    .about-me{
+        width: 100%;
+        height: 100%;
+        text-align: justify;
+        padding:5px;
+    }
+    .subs-part{
+        width: calc(100%-40px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:5px;
+    }
+    .copy-des{
+        text-align: justify;
+        margin: 10px 20px;
+    }
+}
+

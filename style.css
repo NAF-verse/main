@@ -268,8 +268,8 @@ hr{
         width: calc(100%-8px);
         align-items: center;
         background-color:lightslategray;
-        padding-top:10px;
-        padding-bottom: 20px;
+        /* padding-top:10px;
+        padding-bottom: 0px; */
     }
     .title{
         font-size: 20px;
